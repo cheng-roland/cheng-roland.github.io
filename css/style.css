@@ -1,0 +1,181 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h1::after{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#nav-bar a{
+    font-size: 1.2em;
+}
+
+.navbar-brand img{
+    width: 25%;
+    height: auto;
+    padding-left: 20px;
+}
+
+.navbar-nav li{
+    padding: 0px 30px;
+    white-space: nowrap;
+}
+
+.navbar-nav li a {
+    float: right; 
+    text-align: left;
+}
+
+#nav-bar ul li a:hover {
+    color: #007bff!important;
+}
+
+.navbar{
+    background: rgb(211, 252, 222);
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.nav-link{
+    color: black!important;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
+
+
+#slider{
+    width: 100%;
+}
+
+
+
+
+#services{
+    background-image: radial-gradient(rgb(104, 199, 104), rgb(222, 247, 222));
+    padding-top: 50px;
+    padding-bottom: 150px;
+    background-position: center;
+    background-size: cover;
+}
+
+#services #caption-text{
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+#services .icon img{
+    height: 200px;
+    width: 200px;
+    padding: 25px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 50px;
+    float: left;
+}
+
+#services .icon{
+    clear: left;
+}
+
+#services .info1 p{
+    font-size: 2em;
+}
+
+#services .info2 p{
+    font-size: 2em;
+}
+
+
+
+
+
+#team{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: black;
+}
+
+.profile-pic{
+    margin-top: 25px;
+}
+
+.profile-pic .img-box{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+
+.profile-pic h2{
+    margin-top: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+.profile-pic h3{
+    font-weight: bold;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.profile-pic p{
+    margin-top: 15px;
+}
+
+
+
+
+
+#contact{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    background-image: radial-gradient(rgb(104, 199, 104), rgb(222, 247, 222));
+}
+
+#contact .contact-text{
+    padding: 50px;
+    border: 1px dotted #267bd6;
+    margin: 50px;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+
+
+
+
+#footer{
+    text-align: center;
+    padding-top: 50px;
+    background-color: rgba(0, 0, 0, 0.726);
+    overflow: hidden;
+}
+
+#footer p{
+    color: white;
+}
